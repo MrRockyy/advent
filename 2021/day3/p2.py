@@ -42,7 +42,7 @@ for i in range(12):
         input=filter(f,input,n)
         n+=1
     if len(input1)!=1:
-       f=comun(div(input1)[t],'1')
+       f=comun(div(input1)[t],'0')
        input1=filter(f,input,t)
        t+=1
     if len(input) == 1 and len(input1) == 1:
