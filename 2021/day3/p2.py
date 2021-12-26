@@ -4,11 +4,11 @@ input = file.read()
 file.close()
 input=input.split('\n')
 input.remove('')
-
+n=0
 num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 gamma=''
 def comun (conj):
-    if conj.count('1') > conj.count('0'):
+    if conj.count('1') >= conj.count('0'):
         return '1'
     elif conj.count('1') < conj.count('0'):
         return '0'
@@ -24,8 +24,19 @@ def div (conj):
         o+=1
   return div
 
+def filter (x,conj,p):
+    gui=[]
+    for g in conj:
+        if g[p] == str(x):
+            gui.append(g)
+    return gui        
 
-print(    
-div(input)[0] 
-    )
+for i in range(12):
+    if len(input)==1:
+        print(input)
+        break
+    f=comun(
+div(input)[n]
+            )
+    input=filter(f,input,n)
 
