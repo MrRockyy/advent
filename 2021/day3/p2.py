@@ -40,3 +40,4 @@ div(input)[n]
             )
     input=filter(f,input,n)
     n+=1
+    print(input)
