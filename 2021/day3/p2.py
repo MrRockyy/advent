@@ -14,8 +14,9 @@ def comun (conj):
         return '0'
 
 def div (conj):
+  div = [[],[],[],[],[],[],[],[],[],[],[],[]] 
   for x in conj:
-     div = [[],[],[],[],[],[],[],[],[],[],[],[]] 
+
      o=0
      for i in x:
         if o < 12:
