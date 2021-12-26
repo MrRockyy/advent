@@ -26,6 +26,6 @@ def div (conj):
 
 
 print(    
-div(input) 
+div(input)[0] 
     )
 
