@@ -24,4 +24,4 @@ def div (conj):
   return div
 
 
-print(comun(div(input)[0]) )    
+print(comun(div(input[0]) ) )   
