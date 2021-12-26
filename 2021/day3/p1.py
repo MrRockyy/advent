@@ -14,13 +14,16 @@ for x in input:
         if o < 12:
             num[o].append(i)
         o+=1
-for 1 in num:
+for l in num:
     if num[h].count(1) > num[h].count(0):
        gamma += '1'
        beta  += '0'
     elif num[h].count(1) < num[h].count(0):
        gamma += '0'
        beta += '1'
+    h+=1
+
+print(gamma)
 
     
 
