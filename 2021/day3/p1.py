@@ -15,6 +15,7 @@ for x in input:
             num[o].append(i)
         o+=1
 for l in num:
+    print ('hola')
     if num[h].count(1) > num[h].count(0):
        gamma += '1'
        beta  += '0'
