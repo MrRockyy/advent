@@ -16,10 +16,10 @@ for x in input:
         o+=1
 for l in num:
     print ('hola')
-    if num[h].count(1) > num[h].count(0):
+    if num[h].count('1') > num[h].count('0'):
        gamma += '1'
        beta  += '0'
-    elif num[h].count(1) < num[h].count(0):
+    elif num[h].count('1') < num[h].count('0'):
        gamma += '0'
        beta += '1'
     h+=1
