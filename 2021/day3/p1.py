@@ -23,8 +23,8 @@ for l in num:
        beta += '1'
     h+=1
 
-print(f'gamma = {gamma}')
-print(f'elipson ={beta}')
+print(f'gamma=   {gamma}')
+print(f'elipson= {beta}')
     
 
 
