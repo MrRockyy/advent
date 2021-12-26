@@ -8,7 +8,8 @@ num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 for x in input:
     o=0
     for i in x:
-        num[o].append(i)
+        if o < 12:
+            num[o].append(i)
         o+=1
 
 print (num)
