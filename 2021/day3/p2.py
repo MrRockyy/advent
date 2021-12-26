@@ -6,7 +6,7 @@ input=input.split('\n')
 input.remove('')
 input1=input
 n=0
-t=1
+t=0`
 num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 gamma=''
 def comun (conj,x):
