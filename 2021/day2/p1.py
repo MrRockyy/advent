@@ -2,6 +2,7 @@ file = open('input.txt' , 'r')
 input = file.read()
 file.close()
 input=input.split('\n')
+input.remove(' ')
 y=0
 x=0 
 for direction in input:
