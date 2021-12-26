@@ -11,5 +11,6 @@ for x in input:
     b=int(input[y+3])+int(input[y+4])+int(input[y+5])
     inx=input.index(input[y+5])
     y=inx+1
-    
+    if b > a:
+        count+=1
 print(count)
