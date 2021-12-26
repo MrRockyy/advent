@@ -6,7 +6,7 @@ y=0
 x=0 
 for direction in input:
     direction=direction.split(' ')
-    print(direction:w)
+    print(direction)
     if direction[0] == 'forward':
         x+=int(direction[1])
 
