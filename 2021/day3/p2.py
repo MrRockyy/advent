@@ -41,7 +41,7 @@ for i in range(12):
         f=comun(div(input)[n],'1')
         input=filter(f,input,n)
         n+=1
-    if len(input1)!=1
+    if len(input1)!=1:
        f=comun(div(input1)[t],'1')
        input1=filter(f,input,t)
        t+=1
