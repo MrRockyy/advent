@@ -6,6 +6,7 @@ input=input.split('\n')
 input.remove('')
 input1=input
 n=0
+t=1
 num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 gamma=''
 def comun (conj,x):
@@ -36,14 +37,15 @@ def filter (x,conj,p):
     return gui        
 
 for i in range(12):
-    if len(input)==1:
-        print(input)
+    if len(input)!=1:
+        f=comun(div(input)[n],'1')
+        input=filter(f,input,n)
+        n+=1
+    if len(input1)!=1
+       f=comun(div(input1)[t],'1')
+       input1=filter(f,input,t)
+       t+=1
+    if len(input) == 1 and len(input1) == 1:
         break
-    f=comun(div(input)[n],'1')
-    input=filter(f,input,n)
-    n+=1
-    f=comun(div(input1)[n],'1')
-    input1=filter(f,input,n)
-    n+=1
 
 print(f'dato1 binary ={input}\n dato2 binary = {input1}')
