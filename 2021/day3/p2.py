@@ -4,6 +4,7 @@ input = file.read()
 file.close()
 input=input.split('\n')
 input.remove('')
+input1=input
 n=0
 num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 gamma=''
@@ -38,9 +39,11 @@ for i in range(12):
     if len(input)==1:
         print(input)
         break
-    f=comun(
-div(input)[n],'1'
-            )
+    f=comun(div(input)[n],'1')
     input=filter(f,input,n)
     n+=1
-print(input)
+    f=comun(div(input1)[n],'1')
+    input1=filter(f,input,n)
+    n+=1
+
+print(f'dato1 binary ={input}\n dato2 binary = {input1}')
