@@ -12,7 +12,7 @@ for x in input:
             num[o].append(i)
         o+=1
 
-print (num)
+print (num[1])
 
 
 
