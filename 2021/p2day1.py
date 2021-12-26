@@ -12,4 +12,5 @@ for x in input:
     inx=input.index(input[y+5])
     y=inx+1
     print(y)
+    break
 print(count)
