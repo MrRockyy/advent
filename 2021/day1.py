@@ -7,8 +7,10 @@ count=0
 input=input.split('\n')
 input.remove('')
 for x in input:
+    if y == len(input):
+        break
     if int(x) < int(input[y]):
         count+=1
     y+=1
-    print(count)
+print(count)
 
