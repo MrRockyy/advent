@@ -7,11 +7,14 @@ input.remove('')
 n=0
 num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 gamma=''
-def comun (conj):
+def comun (conj,x):
     if conj.count('1') > conj.count('0'):
         return '1'
-    elif conj.count('1') <= conj.count('0'):
+    elif conj.count('1') < conj.count('0'):
         return '0'
+    if conj.count('1') == conj.count('0'):
+        return x
+
 
 def div (conj):
   div = [[],[],[],[],[],[],[],[],[],[],[],[]] 
@@ -36,7 +39,7 @@ for i in range(12):
         print(input)
         break
     f=comun(
-div(input)[n]
+div(input)[n],'1'
             )
     input=filter(f,input,n)
     n+=1
