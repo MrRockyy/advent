@@ -19,11 +19,12 @@ def div (conj):
      o=0
      for i in x:
         if o < 12:
-            div[0].append(i)
+            div[o].append(i)
         o+=1
   return div
 
 
 print(    
 div(input) 
-    ) 
+    )
+
