@@ -17,7 +17,7 @@ for direction in input:
     elif direction[0] == 'up':
         y-=int(direction[1])
 
-print(x)
+print(x*y)
     
 
 
