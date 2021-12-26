@@ -8,9 +8,9 @@ n=0
 num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 gamma=''
 def comun (conj):
-    if conj.count('1') >= conj.count('0'):
+    if conj.count('1') > conj.count('0'):
         return '1'
-    elif conj.count('1') < conj.count('0'):
+    elif conj.count('1') <= conj.count('0'):
         return '0'
 
 def div (conj):
