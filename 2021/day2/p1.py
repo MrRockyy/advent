@@ -11,10 +11,10 @@ for direction in input:
         x+=int(direction[1])
 
     elif direction[0] == 'down':
-        y-=int(direction[1]) 
+        y+=int(direction[1]) 
 
     elif direction[0] == 'up':
-        y+=int(direction[1])
+        y-=int(direction[1])
 
 print(x*y)
     
