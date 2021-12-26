@@ -11,7 +11,7 @@ num=[[],[],[],[],[],[],[],[],[],[],[],[]]
 gamma=''
 def comun (conj,x):
     if conj.count('1') > conj.count('0'):
-        if x == '0':
+         if x == '0':
              return '0'
          else:
              return '1'
