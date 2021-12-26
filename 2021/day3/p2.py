@@ -39,4 +39,4 @@ for i in range(12):
 div(input)[n]
             )
     input=filter(f,input,n)
-
+    n+=1
