@@ -6,8 +6,6 @@ y=0
 count=0
 input=input.split('\n')
 input.remove('')
-holi  = [1,2,1,12,12,23,21,3,123,123,213,123]
-print (len(input))
 for x in input:
     if y+3 >= len(input):
         break
