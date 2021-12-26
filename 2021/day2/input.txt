@@ -997,4 +997,4 @@ down 4
 down 2
 forward 1
 up 7
-forward 2u
+forward 2
