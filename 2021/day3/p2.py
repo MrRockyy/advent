@@ -42,7 +42,7 @@ def filter (x,conj,p):
             gui.append(g)
     return gui        
 
-for i in range(5):
+for i in range(12):
     if len(input)!=1:
         f=comun(div(input)[n],'1')
         input=filter(f,input,n)
