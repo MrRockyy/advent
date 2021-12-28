@@ -8,7 +8,7 @@ x=-1
 for i in range (1000):
     try: 
       input.remove( '')
-    except valueerror: 
+    except ValueError: 
         pass
 
 
@@ -20,7 +20,7 @@ for i in input:
     for i in range (10):
        try: 
           i.remove( '')
-       except valuerror: 
+       except ValueError: 
          pass
 
 
