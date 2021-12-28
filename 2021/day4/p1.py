@@ -60,8 +60,14 @@ for i in bingo:
     bingo2.append(table)
     table=[]
 
-print(winners)
-## part 2 
+## part 2
+for i in bingo2:
+    for h in i:
+        count=0 
+        for y in winners
+            count+=h.count(y)
+        if count == 5:
+            print('ganador!!!' + h)
 
 
 
