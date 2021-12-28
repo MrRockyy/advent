@@ -4,6 +4,7 @@ file.close()
 input=input.split('\n')
 table=[]
 bingo = []
+bingo2=[]
 x=-1
 for i in range (1000):
     try: 
@@ -33,4 +34,4 @@ for i in input:
         bingo.append(table)
         table=[]
 
-print(bingo[0])      
+print(table)      
