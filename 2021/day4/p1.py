@@ -17,6 +17,7 @@ print(input)
 
 for i in input:
     x+=1
+    print (i)
     if i != input[0]:
        table.append(i)
     if x == 4:
@@ -24,6 +25,5 @@ for i in input:
         bingo.append(table)
         table=[]
 
-print(bingo[0])
 
       
