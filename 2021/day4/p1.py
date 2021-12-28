@@ -75,6 +75,6 @@ for i in bingo2:
                 defi.setdefault(intentos,str(i))
 
 
-print(defi)
+print(values)
 
 
