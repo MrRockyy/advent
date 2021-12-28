@@ -16,6 +16,7 @@ for i in range (1000):
 
 for i in input:
     x+=1
+    i=i.split(' ')
     if i != input[0]:
        table.append(i)
     if x == 4:
