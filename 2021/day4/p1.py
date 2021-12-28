@@ -6,6 +6,7 @@ table=[]
 bingo = []
 bingo2=[]
 winners=[]
+defi = {}
 x=-1
 
 
@@ -62,11 +63,16 @@ for i in bingo:
 
 ## part 2
 for i in bingo2:
+    k=0
     for h in i:
-      count=0 
+      count=0
+      intentos=0
       for y in winners:
           if h.count(y)> 0:
               count+=1
+          intentos+=1
       if count >= 5:
-            pass
-      print(count)
+            if k ==0
+                defi.setdefault(i,intentos)
+            k+=1
+
