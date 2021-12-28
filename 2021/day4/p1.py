@@ -68,4 +68,4 @@ for i in bingo2:
             count+=h.count(y)
       if count >= 5:
             pass
-      pass
+      print(count)
