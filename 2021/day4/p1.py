@@ -16,7 +16,13 @@ for i in range (1000):
 
 for i in input:
     x+=1
-    print(i.split(' '))
+    i=i.split(' ')
+    for o in range (1000):
+       try: 
+          i.remove( '')
+       except ValueError: 
+        pass
+
     if i != input[0]:
        table.append(i)
     if x == 4:
