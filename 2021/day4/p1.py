@@ -5,6 +5,7 @@ input=input.split('\n')
 table=[]
 bingo = []
 bingo2=[]
+winners=[]
 x=-1
 
 
@@ -19,6 +20,8 @@ for i in range (1000):
  
     except ValueError: 
         pass
+for t in input[0]:
+    print(t)
 input.remove(input[0])
 
 
@@ -55,7 +58,10 @@ for i in bingo:
         table.append(v)
     bingo2.append(table)
     table=[]
-print (bingo2[0] )
+
+
+## part 2 
+
 
 
 
