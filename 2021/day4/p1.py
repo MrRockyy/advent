@@ -72,7 +72,6 @@ for i in bingo2:
               count+=1
           intentos+=1
           if count >= 5:
-            if k ==0:
                 defi.setdefault(str(i),intentos)
                 k+=1
 print(defi)
