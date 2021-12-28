@@ -24,6 +24,6 @@ for i in input:
         bingo.append(table)
         table=[]
 
-print(bingo)
+print(bingo[0])
 
       
