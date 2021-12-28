@@ -2,6 +2,9 @@ file = open('input.txt' , 'r')
 input = file.read()
 file.close()
 input=input.split('\n')
+table=[]
+bingo = []
+x=0
 for i in range (1000):
     try: 
       input.remove( '')
@@ -11,3 +14,16 @@ for i in range (1000):
 
 
 print(input)
+
+for i in input:
+    x+=1
+    if i != input[0]:
+       table.append(i)
+    if x == 4:
+        x=1
+        bingo.append(table)
+        table=[]
+
+print(bingo)
+
+      
