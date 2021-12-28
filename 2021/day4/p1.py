@@ -19,10 +19,7 @@ for i in range (1000):
  
     except ValueError: 
         pass
-    input.remove(input[0])
-
-
-
+input.remove(input[0])
 
 
 for i in input:
