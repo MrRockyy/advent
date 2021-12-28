@@ -51,7 +51,7 @@ for i in bingo:
         table.append(v)
     bingo2.append(table)
     table=[]
-print [bingo2[0]]
+print (bingo2[0] )
 
 
 
