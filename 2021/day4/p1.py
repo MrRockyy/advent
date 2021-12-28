@@ -6,6 +6,13 @@ table=[]
 bingo = []
 bingo2=[]
 x=-1
+
+
+def filter (conj,inx):
+    array=[]
+    for i in conf
+        array.append(i[inx])
+    return array
 for i in range (1000):
     try: 
       input.remove( '')
@@ -34,4 +41,5 @@ for i in input:
         bingo.append(table)
         table=[]
 
-print(table)      
+for i in bingo:
+    
