@@ -16,12 +16,12 @@ for i in range (1000):
 
 for i in input:
     x+=1
+    print(i.split(' '))
     if i != input[0]:
        table.append(i)
     if x == 4:
         x=0
         bingo.append(table)
         table=[]
-print(bingo[0])
 
       
