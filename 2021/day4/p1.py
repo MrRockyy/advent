@@ -15,6 +15,7 @@ for i in range (1000):
 
 
 for i in input:
+    t=i
     x+=1
     i=i.split(' ')
 
@@ -25,9 +26,9 @@ for i in input:
        except ValueError: 
          pass
 
-    if i != input[0]:
+    if t != input[0]:
        table.append(i)
-    if x == 4:
+    if x == 5:
         x=0
         bingo.append(table)
         table=[]
