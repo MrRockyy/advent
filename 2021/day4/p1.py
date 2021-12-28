@@ -27,15 +27,16 @@ for i in input:
     x+=1
     i=i.split(' ')
     h=[]
-    for p in i:
-        p=int(p)
-        h.append(p)
-    i=h
+
     for o in range (4):
        try: 
           i.remove( '')
        except ValueError: 
          pass
+    for p in i:
+        p=int(p)
+        h.append(p)
+    i=h
 
     if t != input[0]:
        table.append(i)
