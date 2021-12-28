@@ -20,8 +20,9 @@ for i in range (1000):
  
     except ValueError: 
         pass
-for t in input[0]:
-    print(t)
+d=input[0].split(',')
+for i in d:
+    winners.append(int(i))
 input.remove(input[0])
 
 
@@ -59,7 +60,7 @@ for i in bingo:
     bingo2.append(table)
     table=[]
 
-
+print(winners)
 ## part 2 
 
 
