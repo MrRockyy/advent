@@ -42,4 +42,18 @@ for i in input:
         table=[]
 
 for i in bingo:
+    table.append(filter(i,0))
+    table.append(filter(i,1))
+    table.append(filter(i,2))
+    table.append(filter(i,3))
+    table.append(filter(i,4))
+    for v in i:
+        table.append(v)
+    bingo2.append(table)
+    table=[]
+print [bingo2[0]]
+
+
+
+
     
