@@ -13,7 +13,6 @@ for i in range (1000):
 
 
 
-print(input)
 
 for i in input:
     x+=1
@@ -23,6 +22,6 @@ for i in input:
         x=0
         bingo.append(table)
         table=[]
-print(table)
+print(bingo[0])
 
       
