@@ -23,6 +23,6 @@ for i in input:
         x=0
         bingo.append(table)
         table=[]
-print(bingo[1])
+print(table)
 
       
