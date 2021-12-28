@@ -16,9 +16,11 @@ def filter (conj,inx):
 for i in range (1000):
     try: 
       input.remove( '')
-    input.remove(input[0])
+ 
     except ValueError: 
         pass
+    input.remove(input[0])
+
 
 
 
