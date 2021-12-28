@@ -3,4 +3,4 @@ input = file.read()
 file.close()
 input=input.split('\n')
 
-print(input[0])
+print(input[1])
