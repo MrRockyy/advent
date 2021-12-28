@@ -3,7 +3,10 @@ input = file.read()
 file.close()
 input=input.split('\n')
 for i in range (1000):
-    input.remove( '')
+    try: 
+      input.remove( '')
+    except ValueError: 
+        pass
 
 
 
