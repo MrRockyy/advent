@@ -25,9 +25,6 @@ for i in input:
        except ValueError: 
          pass
 
-    print(i)
-
-
     if i != input[0]:
        table.append(i)
     if x == 4:
@@ -35,4 +32,4 @@ for i in input:
         bingo.append(table)
         table=[]
 
-      
+print(bingo[0])      
