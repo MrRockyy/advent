@@ -10,7 +10,7 @@ x=-1
 
 def filter (conj,inx):
     array=[]
-    for i in conf
+    for i in conj:
         array.append(i[inx])
     return array
 for i in range (1000):
