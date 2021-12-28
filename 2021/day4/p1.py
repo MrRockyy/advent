@@ -17,6 +17,7 @@ for i in range (1000):
 for i in input:
     x+=1
     i=i.split(' ')
+    print(i)
     for i in range (10):
        try: 
           i.remove( '')
