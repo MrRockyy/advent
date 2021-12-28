@@ -65,6 +65,8 @@ for i in bingo2:
     for h in i:
       count=0 
       for y in winners:
-            print(h.count(y))
+          if h.count(y)> 0:
+              count+=1
       if count >= 5:
             pass
+      print(count)
